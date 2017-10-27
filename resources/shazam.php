@@ -139,7 +139,7 @@ $(document).ready(function() {
                         //console.log (r);	 	//.css('text-align','left');
 
                         // Move it to the td cell
-                        $(this).html($(real_data).children(':not(table)'));
+                        $(this).html($(real_data).children(':not(table:not(.sldrparent))'));
 
                         // Hide the source TRs. (two methods here)
                         // $(real_tr).css('display','none'); // This doesn't work because if
